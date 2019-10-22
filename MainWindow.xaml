@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tp_Adapter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tp_Adapter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="644,74,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <ComboBox x:Name="cmb_Vehicule" HorizontalAlignment="Left" Margin="357,94,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem IsSelected="True">Avion</ComboBoxItem>
+            <ComboBoxItem>Moto</ComboBoxItem>
+            <ComboBoxItem>voiture</ComboBoxItem>
+        </ComboBox>
+        <Button Content="ButtonAdapter" HorizontalAlignment="Left" Margin="644,162,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
